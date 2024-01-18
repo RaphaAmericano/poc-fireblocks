@@ -18,6 +18,6 @@ async function createVaultAccounts(amountOfVaultAccounts, assetId, vaultAccountN
  }
 
 ( async () => {
-    const result = await createVaultAccounts(3, "SOL_TEST","END-USER#");
+    const result = await createVaultAccounts(3, "ETH_TEST3","END-USER#");
     console.log(result)
 })()
