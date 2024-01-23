@@ -5,6 +5,6 @@ async function createNewWallet(vaultAccountId, assetId){
  }
 
 ( async () => {
-    const result = await createNewWallet(3, "ETH_TEST3","END-USER#");
+    const result = await createNewWallet(3, "ETH_TEST3");
     console.log(result)
 })()
