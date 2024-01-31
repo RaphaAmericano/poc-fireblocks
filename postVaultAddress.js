@@ -1,6 +1,6 @@
 const fireblocks = require("./service");
 
 ( async () => {
-    const address = await fireblocks.generateNewAddress("2", "ETH_TEST3", "Carteira Matic", "1");
+    const address = await fireblocks.generateNewAddress("18", "BTC_TEST");
     console.log(address)
 })()
