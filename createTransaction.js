@@ -18,4 +18,4 @@ async function createTransaction(assetId, amount, srcId, destId){
     const result = await fireblocks.createTransaction(payload);
     console.log(JSON.stringify(result, null, 2));
 }
-createTransaction("ETH_TEST3", "0.00001", "0", "1");
+createTransaction("TKO111_POLYGON_TEST_MUMBAI_7GXB", "1", "71", "81");
